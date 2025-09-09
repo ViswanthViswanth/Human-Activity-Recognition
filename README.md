@@ -42,11 +42,13 @@ We combine **Convolutional Neural Networks (CNNs)** and **Long Short-Term Memory
 ### 🔄 Workflow Diagram
 
 flowchart TD
+
     A[Video Dataset (UFC)] --> B[Frame Extraction & Preprocessing]
     B --> C[CNN Feature Extraction]
     C --> D[LSTM Sequence Modeling]
     D --> E[Dense Layer + Softmax]
     E --> F[Activity Prediction]
+    
 📊 Model Architecture
 CNN Layers → Convolution + MaxPooling
 
