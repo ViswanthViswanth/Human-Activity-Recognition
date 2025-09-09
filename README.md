@@ -40,7 +40,7 @@ We combine **Convolutional Neural Networks (CNNs)** and **Long Short-Term Memory
 ---
 
 ### 🔄 Workflow Diagram
-```mermaid
+
 flowchart TD
     A[Video Dataset (UFC)] --> B[Frame Extraction & Preprocessing]
     B --> C[CNN Feature Extraction]
